@@ -1,17 +1,21 @@
 {
-  "name": "developing-with-docker",
+  "name": "docker-complete",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "DevOps",
-  "license": "ISC",
+  "author": "Maximilian Schwarzmüller / Academind GmbH",
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongodb": "^3.3.3"
+    "body-parser": "1.19.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^4.9.0",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "build": "webpack"
   }
 }
+
