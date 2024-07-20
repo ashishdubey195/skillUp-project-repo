@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "test": "npm install inherits && mocha"
+    "test": "mocha"
   },
   "engines": {
-    "node": "^4.6.1"
+    "node": ">=12.22.9"
   },
   "dependencies": {
     "express": "^4.14.0",
