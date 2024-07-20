@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "test": "mocha"
+    "test": "mocha 'test/**/*.js'"
   },
   "engines": {
     "node": ">=12.22.9"
